@@ -1,0 +1,104 @@
+* {
+    font-family: Lato;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    background-color: rgb(82, 100, 99);
+    padding: 13px 5px;
+    position: sticky;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    padding: 10px 28px;
+    font-size: 1.2rem;
+}
+
+#navbar li a:hover {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+#introSection {
+    height: 500px;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    color: white;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+}
+
+#introSection div.small {
+    font-size: 30px;
+    padding: 5px;
+}
+
+#missionSection {
+    height: 325px;
+    width: 63%;
+    margin: auto;
+}
+
+#missionSection h3 {
+    text-align: center;
+    font-size: 2.1rem;
+    padding-top: 15px;
+}
+
+.card {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 12px;
+    background: lightgray;
+    width: 30%;
+    margin: 19px 12px;
+    height: 209px;
+}
+
+.card h2 {
+    text-align: center;
+    font-size: 23px;
+}
+
+#sponsorsSection {
+    height: 300px;
+    background-color: rgb(175, 175, 175);
+}
+
+#sponsorsSection h3 {
+    text-align: center;
+    font-size: 2.1rem;
+    padding-top: 15px;
+}
+
+#footer {
+    height: 40px;
+    background-color: lightslategray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
